@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/layout_title" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_main_tab"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_main_contain"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/rv_main_tab"
+        app:layout_constraintTop_toBottomOf="@id/include2"/>
+
+</android.support.constraint.ConstraintLayout>

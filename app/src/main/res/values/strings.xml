@@ -1,0 +1,83 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Android One</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="main_tab_home">首页</string>
+    <string name="main_tab_hierarchy">体系</string>
+    <string name="main_tab_navigation">导航</string>
+    <string name="main_tab_project">项目</string>
+
+    <string name="main_menu_collect">我的收藏</string>
+    <string name="main_menu_about">关于我们</string>
+    <string name="main_menu_modify_pwd">修改密码</string>
+    <string name="main_menu_logout">退出登录</string>
+
+    <string name="login_forget_pwd">忘记密码？</string>
+    <string name="register">注册</string>
+    <string name="login">登录</string>
+    <string name="login_username">用户名</string>
+    <string name="login_pwd">密码</string>
+    <string name="error_username_required">用户名不能为空</string>
+    <string name="error_pwd_required">密码不能为空</string>
+    <string name="tip_no_login">路人</string>
+    <string name="tip_no_login_name">?</string>
+
+    <string name="icon_tab_home">&#xe611;</string>
+    <string name="icon_tab_hierarchy">&#xe605;</string>
+    <string name="icon_tab_navigation">&#xe66c;</string>
+    <string name="icon_tab_project">&#xe620;</string>
+    <string name="icon_search">&#xe61a;</string>
+    <string name="icon_no_collect">&#xe60f;</string>
+    <string name="icon_collect">&#xe62b;</string>
+    <string name="icon_share">&#xe614;</string>
+    <string name="icon_back">&#xe617;</string>
+    <string name="icon_menu">&#xe61e;</string>
+    <string name="icon_no_login">&#xe60c;</string>
+    <string name="icon_no_network">&#xe62c;</string>
+    <string name="icon_load_fail">&#xe6e1;</string>
+    <string name="icon_classify">&#xe606;</string>
+    <string name="icon_down">&#xe656;</string>
+    <string name="icon_up">&#xe7bc;</string>
+
+    <string name="article_desc">简介：<xliff:g id="desc">%s</xliff:g></string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="tip_no_network">不能愉快的玩耍了~~(#`O′)</string>
+    <string name="tip_load_fail">下拉试试(#`O′)</string>
+    <string name="tip_need_login">来不及解释了，快上车~~(#`O′)</string>
+    <string name="btn_to_login">去登录</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">取个好听的昵称</string>
+    <string name="prompt_password">输入密码</string>
+    <string name="prompt_re_password">确认密码</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_short_email">长度至少6位</string>
+    <string name="error_empty">此项不能为空</string>
+    <string name="error_pwd_not_equal">两次密码不一致</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_register">Register</string>
+    <string name="tip_search_hot_key">搜索热词</string>
+    <string name="tip_useful_site">常用网站</string>
+    <string name="search_hint">学点什么呢</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="search">搜索</string>
+
+    <string name="title_activity_drag_photo">DragPhotoActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="please_login">请先登录</string>
+    <string name="collect_success">收藏成功</string>
+    <string name="uncollect_success">取消收藏成功</string>
+
+</resources>

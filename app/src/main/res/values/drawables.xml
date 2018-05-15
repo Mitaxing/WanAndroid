@@ -1,0 +1,6 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="ic_menu_camera" type="drawable">@drawable/ic_menu_collect</item>
+    <item name="ic_menu_gallery" type="drawable">@drawable/ic_menu_about_us</item>
+    <item name="ic_menu_slideshow" type="drawable">@drawable/ic_menu_modify_pwd</item>
+    <item name="ic_menu_manage" type="drawable">@drawable/ic_menu_logout</item>
+</resources>

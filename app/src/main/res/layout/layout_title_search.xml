@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="53dp"
+    android:background="@color/colorPrimary"
+    android:translationZ="5dp">
+
+    <com.mita.wanandroid.view.IconFontView
+        android:id="@+id/ifv_title_left"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="16dp"
+        android:includeFontPadding="false"
+        android:text="@string/icon_back"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_search"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:background="@null"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:maxLines="1"
+        android:hint="@string/search_hint"
+        android:textColorHint="@color/color_99"
+        android:maxLength="20"
+        app:layout_constraintEnd_toStartOf="@id/view2"
+        app:layout_constraintStart_toEndOf="@id/ifv_title_left" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="1px"
+        android:layout_height="22dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/tv_search"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_search"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/search"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
